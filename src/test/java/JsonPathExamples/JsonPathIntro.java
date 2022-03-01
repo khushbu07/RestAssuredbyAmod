@@ -1,4 +1,4 @@
-package com.rest;
+package JsonPathExamples;
 
 import org.testng.annotations.Test;
 
@@ -17,8 +17,15 @@ public class JsonPathIntro {
 		
 		System.out.println("Print firstName : "+firstname);
 		
-		String fname=jsonpath.get("firstname");
+		Object fname=jsonpath.get("firstname");
 		System.out.println("if dnt knw type of object : "+fname);
+		
+		//int fn=jsonpath.get("firstname"); //ClassCastException
+		//System.out.println("if dnt knw type of object : "+fn);
+		
+		String s= "Amod"; //NumberFormatException
+		System.out.println(Integer.parseInt(s));
+				
 		
 		
 	}
