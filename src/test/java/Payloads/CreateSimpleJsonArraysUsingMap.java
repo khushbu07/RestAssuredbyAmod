@@ -24,7 +24,7 @@ public class CreateSimpleJsonArraysUsingMap {
 		empDetails2.put("email", "cstuehmeyer1@yellowpages.com");
 		empDetails2.put("gender", "Female");
 		
-		List<Map<String,Object>> allEmp = new ArrayList<>();
+		List<Map<String,Object>> allEmp = new ArrayList<Map<String,Object>>();
 		allEmp.add(empDetails);
 		allEmp.add(empDetails2);
 		

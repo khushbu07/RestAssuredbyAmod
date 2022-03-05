@@ -19,10 +19,10 @@ public class JsonPathNoExistence {
 		//int i=jsonpath.get("firstname1"); //NullPointerException
 		//System.out.println("Print firstName : "+i); //
 		
-		System.out.println(jsonpath.get("$"));
+	//	System.out.println(jsonpath.get("$"));
 		System.out.println(jsonpath.getString("$"));
 		System.out.println((Object)jsonpath.get());
-		System.out.println(jsonpath.get(""));
+		//System.out.println(jsonpath.get(""));
 
 }
 }

@@ -9,7 +9,7 @@ public class PathParameterExample4 {
 	
 	public static void main(String args[]) {
 		
-		Map<String ,Object> pathParameters=new HashMap<>();
+		Map<String ,Object> pathParameters=new HashMap<String ,Object>();
 		pathParameters.put("basePath", "booking");
 		pathParameters.put("bookingId", 7);
 		

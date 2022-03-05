@@ -8,7 +8,7 @@ import io.restassured.RestAssured;
 public class CreateNestedJsonObjectsUsingMap {
 
 	public static void main(String[] args) {
-		Map<String,Object> jsonObjectPayload = new LinkedHashMap<>();
+		Map<String,Object> jsonObjectPayload = new LinkedHashMap<String,Object>();
 		jsonObjectPayload.put("id", "1");
 		jsonObjectPayload.put("first_name", "Amod");
 		jsonObjectPayload.put("last_name", "Mahajan");

@@ -10,7 +10,7 @@ public class CreateSimpleJsonObjectUsingMap {
 
 	public static void main(String[] args) {
 		
-		Map<String, Object> jsonObjectPayload = new LinkedHashMap<>(); //linked hashmap fetch the input in sequence whatever we give
+		Map<String, Object> jsonObjectPayload = new LinkedHashMap<String, Object>(); //linked hashmap fetch the input in sequence whatever we give
 		jsonObjectPayload.put("id", 1);
 		jsonObjectPayload.put("first_name", "Amod");
 		jsonObjectPayload.put("last_name", "Mahajan");
